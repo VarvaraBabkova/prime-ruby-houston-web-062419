@@ -2,7 +2,7 @@
 def prime? (number)
 
   if number <= 0
-    number = - number
+    return false
   end
   
   if number == 1 || number == 2
