@@ -1,11 +1,11 @@
 # Add  code here!
 def prime? (number)
 
-  if number <= 0
+  if number <= 0 || number == 1 
     return false
   end
 
-  if number == 1 || number == 2
+  if number == 2
     return true
   end
 
